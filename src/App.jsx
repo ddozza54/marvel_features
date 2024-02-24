@@ -26,6 +26,7 @@ function App() {
         <h4>Loading...</h4>
       ) : (
         <div>
+          <h1>git test</h1>
           {movies.map((movie) => (
             <div key={movie.id}>
               <h2>{movie.title}</h2>
